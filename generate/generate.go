@@ -1637,6 +1637,7 @@ func (s *service) generateNewAPICallFunc(a *API) {
 	pn("")
 	switch n {
 	case
+		"AddCluster",
 		"AddImageStore",
 		"CreateAccount",
 		"CreateDomain",
@@ -1648,6 +1649,7 @@ func (s *service) generateNewAPICallFunc(a *API) {
 		"UpdateServiceOffering",
 		"UpdateConfiguration",
 		"UpdateCluster",
+		"CreatePod",
 		"CreateSSHKeyPair",
 		"CreateSecurityGroup",
 		"CreateServiceOffering",
